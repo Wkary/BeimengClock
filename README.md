@@ -3,11 +3,13 @@
 极简 Android 悬浮时钟。毫秒级精度、35 个电商平台时间源校准、样式完全可定制，
 **零广告、零第三方 SDK、零隐私弹窗**。
 
-[![Release](https://img.shields.io/badge/release-v0.0.1-3D8A5F)](../../releases)
-[![Size](https://img.shields.io/badge/APK-91%20KB-3D8A5F)](../../releases)
-[![minSdk](https://img.shields.io/badge/minSdk-24-3D8A5F)](../../releases)
-[![targetSdk](https://img.shields.io/badge/targetSdk-33-3D8A5F)](../../releases)
-[![License](https://img.shields.io/badge/license-MIT-3D8A5F)](LICENSE)
+**[⬇ 下载 APK](https://github.com/Wkary/BeimengClock/releases/download/v0.0.1/BeimengClock-v0.0.1.apk)** · 91 KB · Android 7.0+
+
+[![Release](https://img.shields.io/badge/release-v0.0.1-3D8A5F)](https://github.com/Wkary/BeimengClock/releases)
+[![Size](https://img.shields.io/badge/APK-91%20KB-3D8A5F)](https://github.com/Wkary/BeimengClock/releases/download/v0.0.1/BeimengClock-v0.0.1.apk)
+[![minSdk](https://img.shields.io/badge/minSdk-24-3D8A5F)](#安装)
+[![targetSdk](https://img.shields.io/badge/targetSdk-33-3D8A5F)](#安装)
+[![License](https://img.shields.io/badge/license-MIT-3D8A5F)](https://github.com/Wkary/BeimengClock/blob/main/LICENSE)
 
 ---
 
