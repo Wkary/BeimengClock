@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 表面：取自 Sesame-M 截图实测 -->
+    <color name="bg_page">#FFF7F7F7</color>
+    <color name="bg_card">#FFFFFFFF</color>
+    <color name="bg_card_alt">#FFFAFAFA</color>
+    <color name="divider">#FFE7E7E7</color>
+
+    <!-- 文字 -->
+    <color name="text_primary">#FF000000</color>
+    <color name="text_secondary">#FF949494</color>
+    <color name="text_tertiary">#FFACACAC</color>
+
+    <!-- 强调色：沿用草木绿（开关/滑杆/选中态） -->
+    <color name="accent">#FF3D8A5F</color>
+    <color name="accent_container">#FFE8F1EB</color>
+    <color name="accent_dark">#FF2C6B49</color>
+    <color name="accent_soft">#1A3D8A5F</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="danger">#FFC0392B</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="chip_bg">#FFF2F2F2</color>
+    <color name="chip_selected_bg">#FFE8F1EB</color>
+    <color name="chip_selected_stroke">#FF3D8A5F</color>
+
+    <color name="bg_btn_ghost_fill">#FFF2F2F2</color>
+
+    <!-- 色板 -->
+    <color name="swatch_white">#FFFFFFFF</color>
+    <color name="swatch_black">#FF000000</color>
+    <color name="swatch_red">#FFE53935</color>
+    <color name="swatch_orange">#FFFB8C00</color>
+    <color name="swatch_yellow">#FFFDD835</color>
+    <color name="swatch_green">#FF3D8A5F</color>
+    <color name="swatch_cyan">#FF00ACC1</color>
+    <color name="swatch_blue">#FF1E88E5</color>
+    <color name="swatch_purple">#FF8E24AA</color>
+    <color name="swatch_pink">#FFD81B60</color>
+    <color name="swatch_gray">#FF8C9A91</color>
+    <color name="swatch_brown">#FF7A5B45</color>
+</resources>
