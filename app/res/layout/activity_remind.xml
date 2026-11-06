@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/ScreenTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_page"
+        android:paddingLeft="34dp"
+        android:paddingTop="24dp"
+        android:paddingRight="34dp"
+        android:paddingBottom="10dp"
+        android:text="@string/title_remind" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="30dp">
+
+            <TextView
+                style="@style/MiuixGroupTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/remind_daily" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/bg_group"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_row_ripple_line"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="13dp"
+                    android:paddingRight="18dp"
+                    android:paddingBottom="13dp">
+
+                    <TextView
+                        style="@style/MiuixRowLabel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/remind_daily_switch" />
+
+                    <Switch
+                        android:id="@id/sw_daily"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/remind_daily_switch" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_row_top_line"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="13dp"
+                    android:paddingRight="18dp"
+                    android:paddingBottom="13dp">
+
+                    <TextView
+                        style="@style/MiuixRowLabel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/remind_at" />
+
+                    <TextView
+                        android:id="@id/btn_daily_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_chip"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="18dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="18dp"
+                        android:paddingBottom="8dp"
+                        android:text="08:00"
+                        android:textColor="@color/accent"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_row_top_line"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="13dp"
+                    android:paddingRight="18dp"
+                    android:paddingBottom="13dp">
+
+                    <TextView
+                        style="@style/MiuixRowLabel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/remind_repeat_daily" />
+
+                    <Switch
+                        android:id="@id/sw_daily_repeat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:contentDescription="@string/remind_repeat_daily" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                style="@style/MiuixGroupTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remind_countdown" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/bg_group"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_row_ripple_line"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="13dp"
+                    android:paddingRight="18dp"
+                    android:paddingBottom="13dp">
+
+                    <TextView
+                        style="@style/MiuixRowLabel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/countdown_minutes" />
+
+                    <EditText
+                        android:id="@id/et_countdown_min"
+                        android:layout_width="72dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_chip"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="5"
+                        android:textColor="@color/text_primary"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@id/countdown_state"
+                    style="@style/MiuixRowValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_row_top_line"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="12dp"
+                    android:paddingRight="18dp"
+                    android:paddingBottom="12dp"
+                    android:text="@string/countdown_idle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_row_top_line"
+                    android:orientation="horizontal"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="14dp"
+                    android:paddingRight="18dp"
+                    android:paddingBottom="14dp">
+
+                    <TextView
+                        android:id="@id/btn_countdown_start"
+                        style="@style/BtnPrimary"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/remind_start" />
+
+                    <TextView
+                        android:id="@id/btn_countdown_stop"
+                        style="@style/BtnGhost"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/remind_cancel" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                style="@style/MiuixGroupTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remind_active" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/bg_group"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/remind_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="15dp"
+                    android:paddingRight="18dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/MiuixRowHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="34dp"
+                android:text="@string/remind_summary" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
