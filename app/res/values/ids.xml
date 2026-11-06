@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 悬浮窗 -->
+    <item name="float_root" type="id" />
+    <item name="float_box" type="id" />
+    <item name="float_time" type="id" />
+    <item name="float_ms" type="id" />
+    <item name="float_close" type="id" />
+
+    <!-- 主页 -->
+    <item name="main_time" type="id" />
+    <item name="main_ms" type="id" />
+    <item name="main_date" type="id" />
+    <item name="toggle_float" type="id" />
+    <item name="source_group" type="id" />
+    <item name="row_source_head" type="id" />
+    <item name="source_summary" type="id" />
+    <item name="source_arrow" type="id" />
+    <item name="row_adjust" type="id" />
+    <item name="main_scroll" type="id" />
+
+
+    <item name="calib_state" type="id" />
+    <item name="adj_minus" type="id" />
+    <item name="adj_value" type="id" />
+    <item name="adj_plus" type="id" />
+    <item name="row_sense" type="id" />
+    <item name="sense_value" type="id" />
+    <item name="row_smart" type="id" />
+    <item name="sw_smart" type="id" />
+    <item name="row_remind" type="id" />
+    <item name="remind_state" type="id" />
+    <item name="row_settings" type="id" />
+
+    <!-- 设置页 -->
+    <item name="row_style" type="id" />
+    <item name="style_summary" type="id" />
+    <item name="row_perm" type="id" />
+    <item name="perm_state" type="id" />
+    <item name="sw_autostart" type="id" />
+    <item name="about_state" type="id" />
+
+    <!-- 样式页 -->
+    <item name="style_preview_box" type="id" />
+    <item name="style_preview_time" type="id" />
+    <item name="style_preview_ms" type="id" />
+    <item name="preset_group" type="id" />
+    <item name="text_swatch_group" type="id" />
+    <item name="bg_swatch_group" type="id" />
+    <item name="shadow_swatch_group" type="id" />
+    <item name="sb_text_alpha" type="id" />
+    <item name="sv_text_alpha" type="id" />
+    <item name="size_group" type="id" />
+    <item name="sb_bg_alpha" type="id" />
+    <item name="sv_bg_alpha" type="id" />
+    <item name="sb_corner" type="id" />
+    <item name="sv_corner" type="id" />
+    <item name="sw_shadow" type="id" />
+    <item name="shadow_block" type="id" />
+    <item name="sb_shadow_alpha" type="id" />
+    <item name="sv_shadow_alpha" type="id" />
+    <item name="offset_group" type="id" />
+
+    <!-- 提醒页 -->
+    <item name="btn_daily_time" type="id" />
+    <item name="sw_daily" type="id" />
+    <item name="sw_daily_repeat" type="id" />
+    <item name="et_countdown_min" type="id" />
+    <item name="btn_countdown_start" type="id" />
+    <item name="btn_countdown_stop" type="id" />
+    <item name="countdown_state" type="id" />
+    <item name="remind_list" type="id" />
+    <item name="remind_empty" type="id" />
+
+    <!-- 取色对话框 -->
+    <item name="picker_grid" type="id" />
+    <item name="picker_hex" type="id" />
+    <item name="picker_swatch" type="id" />
+</resources>
