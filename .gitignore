@@ -1,0 +1,38 @@
+# 构建中间产物
+build/
+out/
+*.apk.idsig
+
+# 依赖与缓存
+.gradle/
+.gradle-cache/
+
+# 签名私钥（绝不可入库）
+*.keystore
+*.jks
+*.p12
+*.pfx
+debug.keystore
+
+# 本地不可用工具（体积大且可复现获取）
+app/bin/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# 编辑器与临时文件
+.idea/
+.vscode/
+*.iml
+*.log
+*.tmp
+*.bak
+~$*
+Thumbs.db
+.DS_Store
+
+# 本地截图原始件（仓库只保留 docs 下的压缩版）
+shots/
+_*.png
+_*.xml
+_*.txt
+新建文本文档.txt
