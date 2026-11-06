@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">北梦悬浮时钟</string>
+
+    <!-- 主页 -->
+    <string name="calibrate">校准</string>
+    <string name="time_source">时间源</string>
+    <string name="src_system">系统</string>
+    <string name="src_beijing">北京时间</string>
+    <string name="src_taobao">淘宝</string>
+    <string name="src_damai">大麦</string>
+    <string name="src_suning">苏宁</string>
+    <string name="src_jd">京东</string>
+    <string name="manual_adjust">手动微调</string>
+    <string name="manual_adjust_hint">点击中间区域键盘输入</string>
+    <string name="sense_error">感官误差</string>
+    <string name="smart_mode">智能模式</string>
+    <string name="open_float">开启悬浮</string>
+    <string name="close_float">关闭悬浮</string>
+    <string name="ms_unit">毫秒</string>
+    <string name="offline">离线</string>
+    <string name="sync_ok">已同步 %1$s · %2$s%3$.3f秒 · 延迟%4$dms</string>
+    <string name="sync_fail">%1$s 同步失败：%2$s</string>
+    <string name="sync_running">正在同步 %1$s…</string>
+    <string name="sync_none">系统时间，未校准</string>
+
+    <string name="group_time">时间</string>
+    <string name="group_features">功能</string>
+    <string name="expand_more">展开全部</string>
+    <string name="collapse">收起</string>
+    <string name="src_count">%1$d 项</string>
+    <string name="group_appearance">外观与行为</string>
+    <string name="group_perm">权限</string>
+    <string name="group_about">关于</string>
+    <string name="group_remind">提醒设置</string>
+    <string name="entry_autostart_hint">开机或重启后自动恢复悬浮窗</string>
+    <!-- 设置 -->
+    <string name="title_settings">设置</string>
+    <string name="title_style">悬浮窗样式</string>
+    <string name="title_remind">提醒</string>
+    <string name="entry_style">悬浮窗样式</string>
+    <string name="entry_remind">定时与倒计时提醒</string>
+    <string name="entry_float_perm">悬浮窗权限</string>
+    <string name="entry_autostart">重启后自动恢复悬浮窗</string>
+    <string name="title_about">关于</string>
+    <string name="perm_granted">已授予</string>
+    <string name="perm_denied">未授予</string>
+    <string name="sec_appearance">外观与行为</string>
+    <string name="sec_perm">权限</string>
+
+    <!-- 样式页 -->
+    <string name="sec_text">文字</string>
+    <string name="sec_bg">背景</string>
+    <string name="sec_shadow">阴影</string>
+    <string name="sec_preset">预设模板</string>
+    <string name="text_color">文字颜色</string>
+    <string name="text_alpha">文字透明度</string>
+    <string name="text_size">文字大小</string>
+    <string name="size_small">小</string>
+    <string name="size_medium">中</string>
+    <string name="size_large">大</string>
+    <string name="bg_color">背景颜色</string>
+    <string name="bg_alpha">背景透明度</string>
+    <string name="bg_corner">背景圆角</string>
+    <string name="shadow_switch">文字阴影</string>
+    <string name="shadow_color">阴影颜色</string>
+    <string name="shadow_alpha">阴影透明度</string>
+    <string name="shadow_offset">阴影偏移</string>
+    <string name="offset_none">无</string>
+    <string name="offset_soft">柔和</string>
+    <string name="offset_normal">标准</string>
+    <string name="offset_strong">强烈</string>
+    <string name="preset_dark">黑底白字</string>
+    <string name="preset_light">白底黑字</string>
+    <string name="preset_trans">透明无背景</string>
+    <string name="preset_grad">渐变彩色</string>
+    <string name="custom_color">自定义颜色</string>
+    <string name="preview_label">实时预览</string>
+    <string name="preset_recommend_tag">推荐</string>
+    <string name="color_bad">颜色格式不对，用 #RRGGBB 或 #AARRGGBB</string>
+
+    <!-- 提醒页 -->
+    <string name="remind_daily">定时提醒</string>
+    <string name="remind_countdown">倒计时提醒</string>
+    <string name="remind_time">提醒时间</string>
+    <string name="remind_repeat_daily">每天重复</string>
+    <string name="remind_minutes">倒计时分钟</string>
+    <string name="remind_start">开始倒计时</string>
+    <string name="remind_cancel">取消</string>
+    <string name="remind_active">已设置的提醒</string>
+    <string name="remind_none">暂无提醒</string>
+    <string name="remind_channel">提醒</string>
+    <string name="remind_text">时间到了</string>
+    <string name="countdown_channel">倒计时</string>
+    <string name="countdown_done">倒计时结束</string>
+    <string name="remind_on">已开启 %1$02d:%2$02d</string>
+    <string name="remind_off">未开启</string>
+    <string name="countdown_running">倒计时进行中</string>
+    <string name="countdown_idle">未开始</string>
+    <string name="countdown_bad">请输入 1–599 分钟</string>
+    <string name="once">仅一次</string>
+    <string name="minute_unit">分钟</string>
+    <string name="remind_daily_switch">开启定时提醒</string>
+    <string name="remind_repeat_switch">每天重复</string>
+    <string name="remind_at">提醒时刻</string>
+    <string name="countdown_minutes">倒计时（分钟）</string>
+    <string name="countdown_stop">停止倒计时</string>
+    <string name="remind_summary">提醒通过系统通知送达，点击通知可回到应用。</string>
+
+    <!-- 悬浮窗 -->
+    <string name="float_channel">悬浮时钟</string>
+    <string name="float_running">悬浮时钟运行中</string>
+    <string name="perm_need">请先授予悬浮窗权限</string>
+
+    <!-- 通用 -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="faster">快</string>
+    <string name="slower">慢</string>
+    <string name="sense_dialog_desc">从看到时间到实际点击之间的人为延迟，抢购时按此值提前。</string>
+    <string name="smart_desc">根据历史点击结果自动微调感官误差</string>
+</resources>
