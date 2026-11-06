@@ -23,9 +23,7 @@
 |---|---|
 | ![样式](docs/screenshots/04-style.jpg) | ![设置](docs/screenshots/03-settings.jpg) |
 
-| 悬浮窗实际效果 |
-|---|
-| ![悬浮窗](docs/screenshots/05-float.jpg) |
+
 
 ---
 
